@@ -57,6 +57,7 @@ my_parsed_item = ParsedItem('http://books.toscrape.com/catalogue/category/books/
 print(my_parsed_item.name)
 print(my_parsed_item.pricing)
 print(my_parsed_item.link)
+
 print(my_parsed_item.rating)
 
 # [ParsedItem(p) for p in soup.findall('article')]   For finding all items without looping in the class.
