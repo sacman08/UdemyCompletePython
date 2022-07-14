@@ -1,0 +1,3 @@
+name,age,school,degree
+jenna,22,MIT,Math
+Lindsey,20,Harvard,Physics
