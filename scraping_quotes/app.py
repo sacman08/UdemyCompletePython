@@ -9,7 +9,7 @@ def scraper_request(url_to_get):
     for quote in page.quotes:
         return quote.content
         # with open('Quotes.txt', 'a') as file:
-        #     file.write(quote.content + '\n')
+        #     file.write(quote.content + '\n')ya aaron
         # file.close()
 
-scraper_request('https://quotes.toscrape.com')
+print(scraper_request.author('https://quotes.toscrape.com'))
